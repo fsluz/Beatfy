@@ -1,0 +1,24 @@
+#logo_img {
+    width: 10%;
+    border-radius: 20%;
+}
+.navbar {
+  position: fixed;
+  top: 0;  /* Distância do topo da tela */
+  left: 0; /* Distância da lateral esquerda */
+  width: 20%;
+  background-color: rgb(0, 0, 0); /* Cor de fundo */
+  padding: 30px;
+  height: 100%;
+}
+
+.navbar li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    
+}
