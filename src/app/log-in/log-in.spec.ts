@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HorizontalNavbar } from './horizontal-navbar';
+import { LogInComponent  } from './log-in.component';
 
-describe('VerticallyNavbar', () => {
-  let component: HorizontalNavbar;
-  let fixture: ComponentFixture<HorizontalNavbar>;
+describe('LogIn', () => {
+  let component: LogInComponent;
+  let fixture: ComponentFixture<LogInComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HorizontalNavbar]
+      imports: [LogInComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HorizontalNavbar);
+    fixture = TestBed.createComponent(LogInComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
