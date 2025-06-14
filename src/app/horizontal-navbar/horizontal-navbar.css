@@ -1,0 +1,41 @@
+.horizontal-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 4rem;
+    background-color: #00000081;
+}
+
+.horizontal-navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.horizontal-navbar input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.horizontal-navbar li {
+    margin: 0 15px;
+}
+
+.horizontal-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.horizontal-navbar ul:last-child {
+    display: flex;
+    justify-content: flex-end;
+}

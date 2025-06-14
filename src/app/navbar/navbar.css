@@ -1,15 +1,26 @@
 #logo_img {
-    width: 10%;
+    width: 4rem;
     border-radius: 20%;
+    margin-right: 5px;
 }
+#logo {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
 .navbar {
   position: fixed;
   top: 0;  /* Distância do topo da tela */
   left: 0; /* Distância da lateral esquerda */
   width: 20%;
-  background-color: rgb(0, 0, 0); /* Cor de fundo */
+  background-color: #00000081; /* Cor de fundo */
   padding: 30px;
   height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .navbar li {
@@ -18,7 +29,20 @@
     padding: 20px;
 }
 
+
 .navbar a {
     color: #ffffff;
-    
+    cursor: pointer;
+    transition: .2s;
+    text-align: center;
+ 
+}
+
+.navbar a:hover {
+    color: #0076a8;
+}
+
+.navbar hr {
+     width: 100%;
+    border-bottom: 1px solid #ffffff;
 }
