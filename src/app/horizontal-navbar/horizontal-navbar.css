@@ -20,19 +20,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    flex-grow: 1;
-    justify-content: center;
 }
 
 .horizontal-navbar input {
     padding: 5px 10px;
     border-radius: 20px;
     border: 1px solid #ccc;
-    width: 300px;
-    margin-right: 20px;
+    width: 20rem;
 }
-
-
 
 .horizontal-navbar li {
     margin: 0 15px;
@@ -49,21 +44,24 @@
     justify-content: flex-end;
 }
 
-
 #cadastro a{
-    color: #00b3ff;
+    color: #000000;
     cursor: pointer;
     transition: .2s;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20rem;
 }
 
 #cadastro a:hover {
-    color: #ffffff;
+    color: #000000;
+    background: #ffffffc0;
     transition: .2s;
 }
 
 #search {
-    background-color: #0000004d;
-    border: 1px solid #0000004d;
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
     padding: 20px;
 }
 
@@ -75,7 +73,7 @@ input[type=text],input[type=text]::placeholder{
  color:white;
 }
 #login a:hover {
-    color: #00b3ff;
+    color: #163b41;
     transition: .2s;
-
+    cursor: pointer;
 }
