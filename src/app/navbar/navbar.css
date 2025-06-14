@@ -9,17 +9,18 @@
     font-size: 30px;
     text-align: center;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
 .navbar {
- width: 20%;
-  background-color: #000000;
-  padding: 30px 10px;
-   height: 100vh;
-  float: left; /* Para manter ela à esquerda sem precisar de flex/grid */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 20px;
+    width: 20%;
+    background-color: #000000;
+    padding: 30px 10px;
+    height: 150rem;
+    float: left;
+    /* Para manter ela à esquerda sem precisar de flex/grid */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 20px;
 
 }
 
@@ -34,7 +35,7 @@
     cursor: pointer;
     transition: .2s;
     text-align: center;
- 
+
 }
 
 .navbar a:hover {
@@ -42,7 +43,6 @@
 }
 
 .navbar hr {
-     width: 100%;
+    width: 100%;
     border-bottom: 1px solid #ffffff;
 }
-

@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { Navbar } from './navbar/navbar';
 import { HorizontalNavbar } from './horizontal-navbar/horizontal-navbar';
 import { Slider } from './slider/slider';
+import { Musics } from './musics/musics';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, HorizontalNavbar, Slider],
+  imports: [RouterOutlet, Navbar, HorizontalNavbar, Slider, Musics],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
