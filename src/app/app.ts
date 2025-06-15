@@ -10,6 +10,8 @@ import { Player } from './components/player/player';
   selector: 'app-root',
   imports: [RouterOutlet, Navbar, HorizontalNavbar, Player, Slider],
   templateUrl: './app.html',
-  styleUrls: ['./app.css']
+  styleUrl: './app.css'
 })
-export class App {}
+export class App {
+  protected title = 'Beatfy';
+}
