@@ -3,7 +3,7 @@
  
  body {
       margin: 0;
-      padding-bottom: 100px; /* ensure space above player */
+      padding-bottom:100px; /* ensure space above player */
       font-family: Arial, sans-serif;
     }
 

@@ -1,13 +1,27 @@
-<div class="login-container">
-  <h2>Login</h2>
-  <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required [(ngModel)]="email">
+
+<div class="register-container">
+  <h2>conectar-se ao Beatfly</h2>
+  <!-- Formulário Angular com ngSubmit -->
+  <form class="register-form" (ngSubmit)="onSubmit()" #registerForm="ngForm">
+
+    <label for="username">Nome de usuário</label>
+    <input type="text" id="username" name="username" required [(ngModel)]="username" />
 
     <label for="password">Senha</label>
-    <input type="password" id="password" name="password" required [(ngModel)]="password">
+    <input type="password" id="password" name="password" required [(ngModel)]="password" />
 
-    <button type="submit">Entrar</button>
+    <button type="submit">Cadastrar</button>
   </form>
-</div>
+  
+  <p class="login-link">Não lembro a minha senha? <a href="/login">Recuperar</a></p>
 
+  <div *ngIf="successMessage" class="success-message">
+  {{ successMessage }}
+  </div>  
+  
+  <div *ngIf="failMessage" class="fail-Message">
+  {{ failMessage }}
+  
+    </div>
+
+ </div>
