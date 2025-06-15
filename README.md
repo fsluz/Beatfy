@@ -1,4 +1,4 @@
-# **Projeto Angular**
+# **Projeto Beatfy Angular**
 
 Este é um projeto desenvolvido utilizando o **Angular**.
 
@@ -13,3 +13,13 @@ Este é um projeto desenvolvido utilizando o **Angular**.
 
    ```bash
    npm install -g @angular/cli
+
+    Instale as dependências do projeto com:
+
+    npm install
+
+Executando o projeto
+
+Para rodar o projeto em ambiente de desenvolvimento, utilize:
+```bash
+npm start
