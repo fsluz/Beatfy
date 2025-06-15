@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(12, 31, 34) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(12, 31, 34) 100%);
 
     background-repeat: no-repeat;
 

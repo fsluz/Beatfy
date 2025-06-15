@@ -1,0 +1,94 @@
+ body {
+      margin: 0;
+      padding-bottom: 100px; /* ensure space above player */
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-player {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      background-color: #163b41;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .track-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .track-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+    }
+
+    .track-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .track-text strong {
+      font-size: 14px;
+    }
+
+    .track-text span {
+      font-size: 12px;
+      color: #b3b3b3;
+    }
+
+    .player-controls {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .player-controls button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .progress-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 20px;
+    }
+
+    .progress-bar {
+      flex: 1;
+      height: 4px;
+      background-color: #40666b;
+      border-radius: 2px;
+      position: relative;
+    }
+
+    .progress {
+      width: 30%;
+      height: 100%;
+      background-color: white;
+      border-radius: 2px;
+    }
+
+    .time {
+      font-size: 12px;
+      color: #b3b3b3;
+    }
+
+    /* Optional: icons from https://fonts.googleapis.com/icon?family=Material+Icons */
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+    .material-icons {
+      font-size: 24px;
+    }
