@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream:src/app/components/player/player.css
     @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
  
  
+=======
+    /* Optional: icons from https://fonts.googleapis.com/icon?family=Material+Icons */
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+>>>>>>> Stashed changes:src/app/player/player.css
  body {
       margin: 0;
       padding-bottom: 100px; /* ensure space above player */
@@ -89,6 +94,10 @@
       color: #b3b3b3;
     }
 
+<<<<<<< Updated upstream:src/app/components/player/player.css
+=======
+ 
+>>>>>>> Stashed changes:src/app/player/player.css
 
     .material-icons {
       font-size: 24px;

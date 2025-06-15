@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'player',
-  imports: [],
+  standalone: true,
   templateUrl: './player.html',
-  styleUrl: './player.css'
+  styleUrls: ['./player.css']
 })
-export class Player {
-
-}
+export class Player {}
