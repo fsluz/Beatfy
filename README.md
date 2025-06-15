@@ -14,7 +14,7 @@ Este é um projeto desenvolvido utilizando o **Angular**.
    ```bash
    npm install -g @angular/cli
 
-    Instale as dependências do projeto com:
+  Instale as dependências do projeto com:
 
     npm install
 
