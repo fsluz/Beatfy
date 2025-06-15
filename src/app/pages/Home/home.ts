@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Slider } from '../slider/slider';
-import { Musics } from '../musics/musics';
+import { Slider } from '../../components/slider/slider';
+import { Musics } from '../../components/musics/musics';
 
 @Component({
   selector: 'home-page',

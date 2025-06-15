@@ -1,3 +1,6 @@
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+ 
+ 
  body {
       margin: 0;
       padding-bottom: 100px; /* ensure space above player */
@@ -86,8 +89,6 @@
       color: #b3b3b3;
     }
 
-    /* Optional: icons from https://fonts.googleapis.com/icon?family=Material+Icons */
-    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
     .material-icons {
       font-size: 24px;

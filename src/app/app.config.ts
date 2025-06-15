@@ -8,5 +8,5 @@ export const appConfig: ApplicationConfig = {
   ]
 };
 import { ApplicationConfig, provideBrowserGlobalErrorListeners, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
-import { Navbar } from './navbar/navbar';
+import { provideRouter, RouterModule  } from '@angular/router';
+import { Navbar } from './components/navbar/navbar';
