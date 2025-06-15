@@ -7,7 +7,7 @@ import { Musics } from './musics/musics';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, HorizontalNavbar, Slider, Musics],
+  imports: [RouterOutlet, Navbar, HorizontalNavbar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
