@@ -1,8 +1,10 @@
+<div class="login-wrapper">
+  <div class="login-container">
 
-<div class="register-container">
-  <h2>conectar-se ao Beatfly</h2>
+<div class="login-container">
+  <h2>Conectar-se ao Beatfly</h2>
   <!-- Formulário Angular com ngSubmit -->
-  <form class="register-form" (ngSubmit)="onSubmit()" #registerForm="ngForm">
+  <form class="login-form" (ngSubmit)="onSubmit()" #registerForm="ngForm">
 
     <label for="username">Nome de usuário</label>
     <input type="text" id="username" name="username" required [(ngModel)]="username" />
@@ -10,10 +12,10 @@
     <label for="password">Senha</label>
     <input type="password" id="password" name="password" required [(ngModel)]="password" />
 
-    <button type="submit">Cadastrar</button>
+    <button type="submit">Conectar-se</button>
   </form>
   
-  <p class="login-link">Não lembro a minha senha? <a href="/login">Recuperar</a></p>
+  <p class="login-link">Esqueceu a sua senha? <a href="#" id="recuperar" (click)="handleRecoveryClick($event)">Recuperar</a></p>
 
   <div *ngIf="successMessage" class="success-message">
   {{ successMessage }}
@@ -21,7 +23,13 @@
   
   <div *ngIf="failMessage" class="fail-Message">
   {{ failMessage }}
-  
-    </div>
+  </div>
+
+  <div *ngIf="recoveryMessage" class="email-message">
+  {{ recoveryMessage }}
+  </div>
 
  </div>
+
+</div>
+</div>

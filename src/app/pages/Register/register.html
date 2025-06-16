@@ -1,0 +1,57 @@
+<div class="register-wrapper">
+  <div class="register-container">
+    <h2>Cadastrar-se no Beatfly</h2>
+
+    <form class="register-form" (ngSubmit)="onSubmit()" #registerForm="ngForm">
+      <label for="username">Nome de usuário</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        required
+        [(ngModel)]="username"
+      />
+
+      <label for="email">E-mail</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        [(ngModel)]="email"
+      />
+
+      <label for="password">Senha</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        [(ngModel)]="password"
+      />
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    
+    <p class="register-link">
+      Já tem uma conta?
+      <a href="#" (click)="handleRecoveryClick($event)">Clique aqui</a>
+    </p>
+
+    
+    <div *ngIf="redirectMessage" class="redirect-message">
+      {{ redirectMessage }}
+    </div>
+
+    
+    <div *ngIf="failMessage" class="fail-Message">
+      {{ failMessage }}
+    </div>
+
+    
+    <div *ngIf="successMessage" class="successfulRegistration-message">
+      {{ successMessage }}
+    </div>
+  </div>
+</div>

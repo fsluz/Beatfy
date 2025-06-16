@@ -12,7 +12,7 @@ html, body {
   color: #0c0606;
 }
 
-.login-wrapper {
+.register-wrapper {
   position: absolute;
   top: 60px;       /* Altura da navbar */
   left: 200px;     /* Largura da sidebar */
@@ -24,7 +24,7 @@ html, body {
   overflow: hidden;
 }
 
-.login-container {
+.register-container {
   width: 700px; /* Aumente ou diminua se quiser */
   padding: 50px;
   border-radius: 16px;
@@ -35,27 +35,27 @@ html, body {
   border-radius: 8%;
 }
 
-.login-container h2 {
+.register-container h2 {
   margin-bottom: 30px;
   font-size: 27px;
   font-weight: 600;
   color: #ffffff;
 }
 
-.login-form {
+.register-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: left;
 }
 
-.login-form label {
+.register-form label {
   font-size: 20px;
   font-weight: 500;
   color: #ffffff;
 }
 
-.login-form input {
+.register-form input {
   padding: 12px 14px;
   font-size: 20px;
   border: none;
@@ -65,12 +65,12 @@ html, body {
   transition: all 0.2s ease-in-out;
 }
 
-.login-form input:focus {
+.register-form input:focus {
   outline: none;
   box-shadow: 0 0 0 2px #1db954;
 }
 
-.login-form button {
+.register-form button {
   margin-top: 10px;
   padding: 14px;
   font-size: 15px;
@@ -83,23 +83,23 @@ html, body {
   transition: background-color 0.3s ease-in-out;
 }
 
-.login-form button:hover {
+.register-form button:hover {
   background-color: #1ed760;
 }
 
-.login-link {
+.register-link {
   margin-top: 20px;
   font-size: 14px;
   color: #ccc;
 }
 
-.login-link a {
+.register-link a {
   color: #1db954;
   text-decoration: none;
   font-weight: 500;
 }
 
-.login-link a:hover {
+.register-link a:hover {
   text-decoration: underline;
 }
 
@@ -125,9 +125,32 @@ html, body {
   animation: fadeIn 0.3s ease-in-out;
 }
 
-.email-message{
+.redirect-message{
   margin-top: 15px;
-  background-color: #0683f1;
+  background-color:#6ca27f;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.usernameFail-message{
+  margin-top: 15px;
+  background-color:#eb4d09;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.successfulRegistration-message{
+  margin-top: 15px;
+  background-color:#6ca27f;;
   color: white;
   padding: 12px;
   border-radius: 6px;

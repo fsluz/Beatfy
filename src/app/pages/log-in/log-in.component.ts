@@ -10,13 +10,14 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./log-in.component.css']
 })
 
-export class RegisterComponent {
+export class logsComponent {
 
   username: string = '';
   password: string = '';
   
   successMessage: string | null = null;
   failMessage: string | null = null;
+  recoveryMessage: string | null = null;
 
   onSubmit() {
     
@@ -41,5 +42,16 @@ export class RegisterComponent {
   setTimeout(() => {
     this.successMessage = null;
   }, 3000);
+
+  return;
+}
+  
+handleRecoveryClick(event: Event) {
+  event.preventDefault();
+  this.recoveryMessage = 'E-mail de recuperação enviado!';
+
+  setTimeout(() => {
+    this.recoveryMessage = null;
+  }, 3000); 
 }
 }
