@@ -1,0 +1,9 @@
+<div class="categorias-container">
+  <div *ngFor="let categoria of categorias" class="categoria-card" [style.backgroundColor]="categoria.cor">
+    
+    <h3>{{ categoria.nome }}</h3>
+
+    <img [src]="categoria.imagemUrl" alt="Capa da categoria {{ categoria.nome }}" class="card-image">
+
+  </div>
+</div>
