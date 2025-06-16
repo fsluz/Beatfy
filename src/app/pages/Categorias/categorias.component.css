@@ -1,0 +1,59 @@
+/* ARQUIVO: categorias.component.css */
+
+/* Container principal que organiza os cartões em uma grade */
+.categorias-container {
+  display: grid;
+  /* Cria colunas flexíveis que se ajustam ao tamanho da tela */
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo base para cada cartão de categoria */
+.categoria-card {
+  height: 180px;
+  border-radius: 8px;
+  padding: 16px;
+  overflow: hidden; /* Essencial para que a imagem não "vaze" para fora do card */
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+/* O título do card fica na camada da frente */
+.categoria-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para a imagem de capa dentro do cartão */
+.card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Gradiente com blur para melhorar legibilidade do título */
+.categoria-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  z-index: 1;
+  pointer-events: none;
+}

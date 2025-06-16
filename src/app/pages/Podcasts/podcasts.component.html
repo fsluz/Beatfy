@@ -1,0 +1,9 @@
+<div class="podcasts-container">
+  <div class="podcast-card" *ngFor="let podcast of podcasts">
+    <h3 class="podcast-title">{{ podcast.nome }}</h3>
+    <img [src]="podcast.imagemUrl" [alt]="podcast.nome" class="podcast-image">
+    <div class="podcast-info">
+      <p>{{ podcast.autor }}</p>
+    </div>
+  </div>
+</div> 
