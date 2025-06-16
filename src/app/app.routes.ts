@@ -18,8 +18,7 @@ export const appRoutes: Routes = [
         path: 'login',
         component: RegisterComponent 
     },
-   },
-    {
+      {
         path: 'categorias',
         component: CategoriasComponent
     },
